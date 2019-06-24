@@ -1,5 +1,5 @@
 {
-  "name": "react-context-menu",
+  "name": "@airsquire/air-react-context-menu",
   "version": "2.0.1",
   "description": "A lightweight right-click context menu implemented in React.",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component  --copy-files ",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
@@ -44,10 +44,13 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   },
-  "author": "Aaron Murphy",
+  "author": "You Yue",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amurp/react-context-menu/issues"
+    "url": "https://github.com/Airsquire/react-context-menu/issues"
   },
-  "homepage": "https://github.com/amurp/react-context-menu#readme"
+  "homepage": "https://github.com/Airsquire/react-context-menu",
+  "directories": {
+    "lib": "lib"
+  }
 }
