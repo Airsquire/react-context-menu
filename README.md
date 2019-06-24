@@ -1,6 +1,8 @@
-# react-context-menu
+# react-context-menu (Airsquire)
 
-A lightweight right-click context menu implemented in React.
+A lightweight right-click context menu implemented in React. 
+
+This fork is solving the ./style.css importing issue
 
 ![example right-click menu](react-context-menu.png?raw=true "example right-click menu")
 
@@ -13,7 +15,7 @@ Install the component in your project:
 Import the component into your project:
 
 ```javascript
-import ContextMenu from 'react-context-menu';
+import ContextMenu from 'air-react-context-menu';
 ```
 
 Pass a ```contextId```, and an array of menu items with labels, onClick functions, and optional icon paths -- like so:
